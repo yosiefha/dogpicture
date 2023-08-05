@@ -25,6 +25,7 @@ public class App {
 
         try {
             SwingUtilities.invokeAndWait(() -> {
+                System.out.println("Wee are experimenting");
                 try {
                     DogImageUrlFetcher fetcher = new DogImageUrlFetcher();
                     ImageFrame frame;
